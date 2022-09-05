@@ -1,0 +1,129 @@
+<!--rgb cool color thing ikr--> 
+ 
+ 
+ ::-webkit-scrollbar
+{
+width:0;
+}
+
+#scrollpath
+{
+  position:fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  background: rgba(255,255,255,0.05)
+  }
+
+#progressbar
+{
+  position:fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  background: linear-gradient(to top, #008aff, #00ffe7);
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate
+{
+  0%,100%
+  {
+    filter: hue-rotate(0deg);
+  }
+
+  50%
+  {
+    filter: hue-rotate(360deg);
+  }
+}
+
+#progressbar:before
+{
+  position:absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  background: linear-gradient(to top, #008aff, #00ffe7);
+  filter:blur(10px);
+}
+
+#progressbar:after
+{
+  position:absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  background: linear-gradient(to top, #008aff, #00ffe7);
+  filter:blur(30px);
+}
+
+<!--actual website thing-->
+
+body
+{
+  display: flex;
+
+}
+
+button
+{
+  position:relative; 
+  height: 75px;
+  border: 2px solid #4c00ff99;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 55px;
+  font-family: 'Raleway', sans-serif;
+  color: #5402f7;
+  background: #000000;
+  text-align: center;
+  vertical-align: center;
+}
+
+.butYou
+{
+  position: relative;
+  top:20px;
+}
+
+.butWeb
+{
+  position: relative;
+  top: 50px;
+}
+
+.butInsta
+{
+  position: relative;
+  top: 80px;
+}
+
+.butCancel
+{
+  position: relative;
+  top: 110px;
+}
+
+.butdisc
+{
+  position: relative;
+  top: 140px;
+}
+
+div
+{
+  text-align: center;
+}
+
+u
+{
+  color: #110c9d;
+}
