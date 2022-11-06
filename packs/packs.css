@@ -1,1 +1,19 @@
-﻿
+body
+{
+    background-color: black;
+    color: white;
+}
+
+.home-image
+{
+    width:70px;
+    float:left;
+    top: 0;
+    position: absolute;
+}
+
+h1
+{
+    top:300px;
+    position: relative;
+}
