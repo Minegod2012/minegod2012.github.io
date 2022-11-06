@@ -30,3 +30,10 @@ li
 	top:100px;
 }
 
+.home-image
+{
+    width:70px;
+    float:left;
+    top: 0;
+    position: absolute;
+}
