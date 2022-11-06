@@ -1,0 +1,39 @@
+﻿table
+{
+	font-size:13pt;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.name
+{
+	text-align:center;
+}
+
+.name2
+{
+	text-align:left;
+	padding-left:7px;
+}
+
+li
+{
+	text-align:left;
+	padding-bottom:5px;
+}
+
+.table
+{
+	margin-top:0;
+	margin-bottom:0;
+	position:relative;
+	top:100px;
+}
+
+.home-image
+{
+    width:70px;
+    float:left;
+    top: 0;
+    position: absolute;
+}
