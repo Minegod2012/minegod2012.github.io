@@ -25,7 +25,7 @@ table
     border-collapse:collapse;
     background-color: #0000009d;
     position: relative;
-    top: 110px;
+    top: 150px;
 }
 
 .description
@@ -73,7 +73,7 @@ td
 
 button
 {
-    height: 37px;
+    height: 50px;
     border: 0px;
     position: fixed;
     width: 100%;
@@ -82,15 +82,15 @@ button
     background: rgb(17, 17, 17);
     color: white;
     font-family: 'Bitter', serif;
-    font-size: 9pt;
+    font-size: 10pt;
     z-index: 1;
 }
 
 button:hover
 {
-    background: #2b2b2b;
-    font-size: 10pt;
-    border: 3px #383838af solid;
+    background: #202020;
+    font-size: 11pt;
+    border: 3px #2a2929 solid;
     z-index: 1;
 }
 
@@ -101,12 +101,12 @@ button:hover
 
 .links_mobile
 {
-    top: 37px;
+    top: 50px;
 }
 
 .contact_mobile
 {
-    top:74px;
+    top:100px;
 }
 
 .GOONS
@@ -233,9 +233,9 @@ button
 
 button:hover
 {
-    background: #2b2b2b;
+    background: #202020;
     font-size: 14pt;
-    border: 5px #383838af solid;
+    border: 3px #383737 solid;
     z-index: 1;
 }
 
