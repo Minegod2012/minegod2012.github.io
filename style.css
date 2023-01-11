@@ -21,6 +21,10 @@ body
     background-color: #0000009d;
     position: relative;
     top: 110px;
+}
+
+.description
+{
     z-index: 1;
 }
 
@@ -55,7 +59,7 @@ td
 .navbar
 {
    display: none;
-   z-index: 100;
+   z-index: 101;
 }
 
 .hamburger
@@ -148,6 +152,10 @@ button:hover
     background-color: #0000009d;
     position: relative;
     top: 95px;
+}
+
+.description
+{
     z-index: 1;
 }
 
@@ -182,7 +190,7 @@ p
 .navbar
 {
     display:flex;
-    z-index: 100;
+    z-index: 101;
 }
 
 .CRP
