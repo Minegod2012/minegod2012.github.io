@@ -1,0 +1,256 @@
+body 
+{
+    color: white;
+    z-index: 10;
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+@media (min-width:300px)
+
+{
+
+.about
+{
+    border-radius: 10px;
+    border: solid 3px;
+    border-collapse:collapse;
+    background-color: #0000009d;
+    position: relative;
+    top: 110px;
+}
+
+.tehdeh
+{
+   vertical-align: top;
+   padding-left: 35px;
+   padding: 10px;
+   position: relative;
+}
+
+.image
+{
+    width:30%;
+    padding: 10px;
+    vertical-align: top;
+    position: relative;
+}
+
+p
+{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+td
+{
+    
+    width: 100%;
+}
+
+.navbar
+{
+   display: none;
+   z-index: 100;
+}
+
+.hamburger
+{
+    display: flex;
+    z-index: 100;
+}
+
+button
+{
+    height: 37px;
+    border: 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(17, 17, 17);
+    color: white;
+    font-family: 'Bitter', serif;
+    font-size: 9pt;
+}
+
+button:hover
+{
+    background: #2b2b2b;
+    font-size: 10pt;
+    border: 3px #383838af solid;
+}
+
+.CRP_mobile
+{
+    top:0;
+}
+
+.links_mobile
+{
+    top: 37px;
+}
+
+.contact_mobile
+{
+    top:74px;
+}
+
+.GOONS
+{
+    color: red;
+}
+
+.GOONS:hover
+{
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.OLR
+{
+    color: #00ff1e;
+}
+
+.OLR:hover
+{
+    font-size: 18pt;
+    font-weight:bold;
+}
+
+.Juice
+{
+    color: #a200ff;
+}
+
+.Juice:hover
+{
+    font-size: 18pt;
+    font-weight:bold;
+}
+
+}
+
+@media (min-width:700px)
+
+{
+
+.about
+{
+    border-color: white;
+    border-radius: 10px;
+    border: solid 3px;
+    border-collapse: collapse;
+    background-color: #0000009d;
+    position: relative;
+    top: 95px;
+}
+
+.tehdeh
+{
+   vertical-align: top;
+   padding-left: 35px;
+   padding: 10px;
+   position: relative;
+}
+
+.image
+{
+    width:20%;
+    padding: 10px;
+    vertical-align: top;
+    position: relative;
+}
+
+p
+{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+.hamburger
+{
+    display: none;
+    z-index: 100;
+}
+
+.navbar
+{
+    display:flex;
+    z-index: 100;
+}
+
+.CRP
+{
+    left:0;
+}
+
+.links
+{
+    left:33.4%
+}
+
+.contact
+{
+    left:66.8%
+}
+
+button
+{
+    background: rgb(17, 17, 17);
+    width: 33.3%;
+    color: white;
+    height: 97px;
+    width:33.4333333%;
+    border: 0px;
+    top:0;
+    font-family: 'Bitter', serif;
+    font-size: 13pt;
+    position: fixed;
+}
+
+button:hover
+{
+    background: #2b2b2b;
+    font-size: 14pt;
+    border: 5px #383838af solid;
+}
+
+.GOONS
+{
+    color: red;
+}
+
+.GOONS:hover
+{
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.OLR
+{
+    color: #00ff1e;
+}
+
+.OLR:hover
+{
+    font-size: 18pt;
+    font-weight:bold;
+}
+
+.Juice
+{
+    color: #a200ff;
+}
+
+.Juice:hover
+{
+    font-size: 18pt;
+    font-weight:bold;
+}
+
+}
